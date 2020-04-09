@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap');
+
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	font-family: Raleway, sans-serif;
+	font-size: 1.2rem;
+	background-color: #E0E0E0;
+	color: #F2F2F2;
+}
+
+.jinsucks {
+	display: flex;
+	flex-direction: column;
+}
+
+.pageHeader {
+	height: 50px;
+	width: 100%;
+	background-color: #333333;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navHeader ul {
+	display: flex;
+	margin: 0;
+	margin-right: 2rem;
+	padding: 0;
+	list-style: none;
+}
+
+.navHeader a {
+	color: #E0E0E0;
+	font-weight: 200;
+	text-decoration: none;
+	text-align: center;
+	padding: 80px;
+	font-size: 27px;
+}
+
+.navHeader a:hover {
+	color: #A5C0DF;
+}
+
+@media (max-width: 950px) {
+	.navHeader a {
+		font-size: 10vw;
+		padding: 3vw;
+	}
+
+}
